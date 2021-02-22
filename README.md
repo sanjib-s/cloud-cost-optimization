@@ -43,10 +43,16 @@ Tags will be based on the schedule selected(From thepre-Configured schedules men
 To tag the EC2 Instance Using AWSCLI   
 ### Step 2: AWS CLI Command to Tag EC2 Instances  
 Variables in the command: 
-   aws ec2 create-tags  \               
---resources <recource id> \               
---tagsKey=Schedule,Value=Pre-Configured-Schedule \                 
---profile  <xyx> * Note - tags key= Schedule . This is predefined tag key .During CFT deployment TAG key can be updated under parameter section
+
+   aws ec2 create-tags  \     
+   
+--resources <recource id> \         
+  
+--tagsKey=Schedule,Value=Pre-Configured-Schedule \ 
+
+--profile  <xyx> 
+  
+ * Note - tags key= Schedule . This is predefined tag key .During CFT deployment TAG key can be updated under parameter section
   
   ### Reporting 
   For purpose of reporting and review custom tags can be added aspart of CFT deployment EC2 & RDS instances started/stop using Instancescheduler based schedule will have
