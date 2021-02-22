@@ -23,7 +23,9 @@ To configure custom start and stop schedules for theirAmazon Elastic Compute Clo
 * EC2 Admin Instance with Custom role to invoke instancescheduler   
 * 
 * ### Implementation design   
-* 
+
+ ![](https://github.com/sanjib-s/cloud-cost-optimization/blob/main/Trusted-advisor-implementation-design.jpg) 
+  
 *  ### Implementation details  
 *  Key components of each Schedule  
 *  Schedule - Actual schedule name (Can be user friendly namee.g - US working hours)
